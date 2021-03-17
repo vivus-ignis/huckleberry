@@ -10,3 +10,54 @@ body {
 }
 
 /* Add styles here! */
+html,
+body {
+  height: 100%;
+}
+
+strong {
+  color: forestgreen;
+}
+
+main {
+  border-top: 5px solid grey;
+  background-color: silver;
+  min-height: 100%;
+}
+
+.max-width-wrapper {
+  width: 100%;
+}
+
+.intro-chunk {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.title {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-bottom: 5px solid grey;
+  padding: 1rem;
+  width: 60%;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.indented-heading {
+  background-color: gold;
+  border-bottom: 5px solid peru;
+  margin-left: -2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: max-content;
+}
